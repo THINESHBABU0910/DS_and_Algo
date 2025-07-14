@@ -1,5 +1,3 @@
-Find Divisors Of A Number O(sqrt(n)).py
-
 from math import *
 def fun(n):
     div1 = set()
