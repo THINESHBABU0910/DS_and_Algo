@@ -14,3 +14,4 @@ while t:
     div1 = fun(n)
     print(*div1)  # need output as list then remove that * else it will give output as 1 2 3  
 t -=1
+
