@@ -24,9 +24,6 @@ def approach2(n):  #O(root(n))
             return False
     return True
 
-
-
-
 t = int(input())
 while t:
     n = int(input())   
