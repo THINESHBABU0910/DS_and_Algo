@@ -1,5 +1,7 @@
 
 def powerof2(n):
+    if n <= 0:
+        return False
     x=n
     y=not(n & (n-1))
     # print(x, y)
