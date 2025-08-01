@@ -9,12 +9,12 @@
 
 
 def two_sums(nums,target):
-    num_maps = {} 
+    nums_map = {}
     for i, num in enumerate(nums):
         diff = target - num
-        if diff in num_maps:
-            return [num_maps[diff],i]        
-        num_maps[num] = i
+        if diff in nums_map:
+            return [nums_map[diff],i]
+        nums_map[num]=i
     
 
 
